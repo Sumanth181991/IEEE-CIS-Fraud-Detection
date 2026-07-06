@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+
+# Dataset
+data/raw/
+*.zip
+
+# Models
+models/*.pkl
+*.joblib
+# CatBoost
+catboost_info/
+notebooks/catboost_info/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
